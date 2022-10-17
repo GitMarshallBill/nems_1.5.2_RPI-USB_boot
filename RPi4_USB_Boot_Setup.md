@@ -2,7 +2,7 @@
 
 **NOTE:** Not all USB drives will work. I have tested a couple different ssd's and USB sticks from Samsung and SanDisk and have been successful.
 
- If the Raspberry Pi has not been updated you will need to have a micro sd card flashed with Raspberry Pi OS to boot the pi and do updates. If Pi eeprom and firmware already updated skip to Step 5
+ If the Raspberry Pi has not been updated you will need to have a micro sd card flashed with Raspberry Pi OS to boot the pi and do updates. If Pi eeprom and firmware already updated skip to Step 4
 
 1. Boot the Raspberry Pi with the Raspberry Pi OS microSD card.
 
@@ -20,10 +20,10 @@
 
    This should output something like:
 
-   pi@raspberrypi:~ $ vcgencmd bootloader_version
-   Jul 16 2020 16:15:46
-   version 45291ce619884192a6622bef8948fb5151c2b456 (release)
-   timestamp 1594912546
+   pi@raspberrypi:~ $ sudo vcgencmd bootloader_version
+   > Jul 16 2020 16:15:46  
+   > version 45291ce619884192a6622bef8948fb5151c2b456 (release)  
+   > timestamp 1594912546  
 
    **The date can be anything like July 16 2020 OR LATER!**
 
